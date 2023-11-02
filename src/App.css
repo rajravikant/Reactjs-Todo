@@ -1,0 +1,33 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main-container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #242424;
+  color: #fff;
+}
+
+header h1{
+  color: #fff;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+header img{
+  width: 15rem;
+  padding: 1rem;
+}
+
+
+
+header img:hover{
+  filter: drop-shadow(0 0 1em #46a1f7aa);
+}
